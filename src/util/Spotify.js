@@ -2,7 +2,7 @@ import { render } from "@testing-library/react";
 import { SearchBar } from "../Components/searchBar/SearchBar";
 
 const clientId = "c565939d445e45b698c7bcc383e9cf5b";
-const redirectUri = "http://playlistadd.surge.sh/";
+const redirectUri = "https://playlistadd.netlify.app/";
 let accessToken;
 
 const Spotify = {
